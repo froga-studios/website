@@ -9,3 +9,7 @@ function showPage() {
   document.getElementById("loading").style.display = "none";
   document.getElementById("myDiv").style.display = "block";
 }
+function showStorageRecursion() 
+{
+    document.getElementById("storagerecursion").style.display = "block";
+}
