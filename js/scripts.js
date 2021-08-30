@@ -13,3 +13,11 @@ function showStorageRecursion()
 {
     document.getElementById("storagerecursion").style.display = "block";
 }
+function showNoMoreScore() 
+{
+    document.getElementById("rmscore").style.display = "block";
+}
+function showAmethyst() 
+{
+    document.getElementById("silkthatamethyst").style.display = "block";
+}
