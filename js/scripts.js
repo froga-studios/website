@@ -18,6 +18,22 @@ function showSilkAmethyst()
     document.getElementById("silkthatamethyst").onclick = "hideAmethyst()";
 }
 
+function hideAmethyst() {
+  document.getElementById("hideAmethyst").style.textDecoration = "underline";
+  document.getElementById("showAmethyst").style.textDecoration = "none";
+  hideSilkAmethyst();
+}
+
+function showStorage() {
+  document.getElementById("showAmethyst").style.textDecoration = "underline";
+  document.getElementById("hideAmethyst").style.textDecoration = "none";
+  showSilkAmethyst();
+}
+
+function hideSilkAmethyst() {
+  document.getElementById("storagerecursion").style.display = "none";
+}
+
 /* --- Storage Recursion --- */
 
 function showStorageRecursion() 
