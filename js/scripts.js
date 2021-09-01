@@ -24,7 +24,7 @@ function hideAmethyst() {
   hideSilkAmethyst();
 }
 
-function showStorage() {
+function showAmethyst() {
   document.getElementById("showAmethyst").style.textDecoration = "underline";
   document.getElementById("hideAmethyst").style.textDecoration = "none";
   showSilkAmethyst();
