@@ -28,34 +28,35 @@
   <div style="clear: both">
     <h2 style="float: left; margin-left: 30px;">Our Projects</h2>
     <div id=projects style="float: left; margin-top: 65px; margin-left: -135px;"> 
-        <a onclick="showStorageRecursion()"><p>Storage Recursion</p></a>
+        <a>Storage Recursion</a> <a>[<a onclick="showStorage()" style="text-decoration: none;" id=showStorage>Show</a> | <a style="text-decoration: underline;" onclick="hideStorage()" id=hideStorage>Hide</a>]</a>
         <div id="storagerecursion" style="display: none;">
-            <img src="https://modrinth.com/_nuxt/4bc5aeb6ba04ad3a77cd054144100433.svg" width="25px" height="25px" onclick="window.location.href = 'https://modrinth.com/mod/storagerecursion/'">
-            <img src="https://gist.githubusercontent.com/thecodewarrior/110057b210551c4ecf2c9be6d58ff824/raw/38748511ca1eb5677f009092fb3fcd71cc76cdf0/logo.png" width="50px" height="25px" onclick="window.location.href = 'https://www.curseforge.com/minecraft/mc-mods/storage-recursion'">
-            <img src="imgs/github.png" width="25px" height="25px" onclick="window.location.href = 'https://github.com/ExoPlant/storagerecursion/'">
+            <img src="https://modrinth.com/_nuxt/4bc5aeb6ba04ad3a77cd054144100433.svg" width="25px" height="25px" onclick="window.open('https://modrinth.com/mod/storagerecursion/','_blank'); ">
+            <img src="https://gist.githubusercontent.com/thecodewarrior/110057b210551c4ecf2c9be6d58ff824/raw/38748511ca1eb5677f009092fb3fcd71cc76cdf0/logo.png" width="50px" height="25px" onclick="window.open('https://www.curseforge.com/minecraft/mc-mods/storage-recursion', '_blank')">
+            <img src="imgs/github.png" width="25px" height="25px" onclick="window.open('https://github.com/ExoPlant/storagerecursion/', '_blank')">
         </div>
-        <a onclick="showNoMoreScore()"><p>NoMoreScore</p></a>
+        <p></p>
+        <a>NoMoreScore</a> <a>[<a onclick="showScore()" style="text-decoration: none;" id=showScore>Show</a> | <a style="text-decoration: underline;" onclick="hideScore()" id=hideScore>Hide</a>]</a>
         <div id="rmscore" style="display: none;">
-            <img src="https://modrinth.com/_nuxt/4bc5aeb6ba04ad3a77cd054144100433.svg" width="25px" height="25px" onclick="window.location.href = 'https://modrinth.com/mod/rmscore/'">
-            <img src="https://gist.githubusercontent.com/thecodewarrior/110057b210551c4ecf2c9be6d58ff824/raw/38748511ca1eb5677f009092fb3fcd71cc76cdf0/logo.png" width="50px" height="25px" onclick="window.location.href = 'https://www.curseforge.com/minecraft/mc-mods/rmscore'">
-            <img src="imgs/github.png" width="25px" height="25px" onclick="window.location.href = 'https://github.com/ExoPlant/NoMoreScore/'">
+            <img src="https://modrinth.com/_nuxt/4bc5aeb6ba04ad3a77cd054144100433.svg" width="25px" height="25px" onclick="window.open('https://modrinth.com/mod/rmscore/','_blank'); ">
+            <img src="https://gist.githubusercontent.com/thecodewarrior/110057b210551c4ecf2c9be6d58ff824/raw/38748511ca1eb5677f009092fb3fcd71cc76cdf0/logo.png" width="50px" height="25px" onclick="window.open('https://www.curseforge.com/minecraft/mc-mods/rmscore', '_blank')">
+            <img src="imgs/github.png" width="25px" height="25px" onclick="window.open('https://github.com/ExoPlant/NoMoreScore/', '_blank')">
         </div>
-        <a onclick="showAmethyst()"><p>Silk That Amethyst</p></a>
+        <a onclick="showSilkAmethyst()"><p>Silk That Amethyst</p></a>
         <div id="silkthatamethyst" style="display: none;">
-            <img src="https://modrinth.com/_nuxt/4bc5aeb6ba04ad3a77cd054144100433.svg" width="25px" height="25px" onclick="window.location.href = 'https://modrinth.com/mod/silkamethyst/'">
-            <img src="https://gist.githubusercontent.com/thecodewarrior/110057b210551c4ecf2c9be6d58ff824/raw/38748511ca1eb5677f009092fb3fcd71cc76cdf0/logo.png" width="50px" height="25px" onclick="window.location.href = 'https://www.curseforge.com/minecraft/mc-mods/silkthatamethyst'">
-            <img src="imgs/github.png" width="25px" height="25px" onclick="window.location.href = 'https://github.com/froga-studios/SilkThatAmethyst'">
+            <img src="https://modrinth.com/_nuxt/4bc5aeb6ba04ad3a77cd054144100433.svg" width="25px" height="25px" onclick="window.open('https://modrinth.com/mod/silkamethyst/', '_blank'_">
+            <img src="https://gist.githubusercontent.com/thecodewarrior/110057b210551c4ecf2c9be6d58ff824/raw/38748511ca1eb5677f009092fb3fcd71cc76cdf0/logo.png" width="50px" height="25px" onclick="window.open('https://www.curseforge.com/minecraft/mc-mods/silkthatamethyst')">
+            <img src="imgs/github.png" width="25px" height="25px" onclick="window.open('https://github.com/froga-studios/SilkThatAmethyst', '_blank')">
         </div>
     </div>
     <div>
     <h2 style="float: right; margin-right: 30px;">Our Socials</h2>
     <div id=socials style="float: right; margin-top: 65px; margin-right: -100px; inset-inline:initial;">
-        <img src='imgs/discord.svg' onclick="window.location.href = 'https://discord.gg/wSDUkDaDfa'">
+        <img src='imgs/discord.svg' onclick="window.open('https://discord.gg/wSDUkDaDfa'), '_blank'">
     </div>
 </div>
-    
 </div>
   </div>
   <script src="js/scripts.js"></script>
+  <footer style="margin-top: 800px;text-align: center;">Credit to <a href=https://www.reddit.com/user/kittycadet>u/kittycadet</a> for the background image</footer>
 </body>
 </html>
