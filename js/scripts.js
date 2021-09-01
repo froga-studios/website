@@ -15,7 +15,6 @@ function showPage() {
 function showSilkAmethyst() 
 {
     document.getElementById("silkthatamethyst").style.display = "block";
-    document.getElementById("silkthatamethyst").onclick = "hideAmethyst()";
 }
 
 function hideAmethyst() {
@@ -31,7 +30,7 @@ function showAmethyst() {
 }
 
 function hideSilkAmethyst() {
-  document.getElementById("storagerecursion").style.display = "none";
+  document.getElementById("silkthatamethyst").style.display = "none";
 }
 
 /* --- Storage Recursion --- */
@@ -39,7 +38,6 @@ function hideSilkAmethyst() {
 function showStorageRecursion() 
 {
     document.getElementById("storagerecursion").style.display = "block";
-    document.getElementById("storagerecursion").setAttribute("onclick","hideStorageRecursion()");
 }
 
 function hideStorage() {
