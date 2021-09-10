@@ -13,21 +13,21 @@ body {
     width: 120px;
     height: 120px;
     margin: -76px 0 0 -76px;
-    border-top: 16px solid purple;
-    border-right: 16px solid rgb(255, 106, 130);
-    border-bottom: 16px solid rgb(118, 0, 173);
-    border-left: 16px solid blue;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
+    border-top: 16px double purple;
+    border-right: 16px double rgb(255, 106, 130);
+    border-bottom: 16px double rgb(118, 0, 173);
+    border-left: 16px double blue;
+    -webkit-animation: ease-in-out 2s reverse infinite;
+    animation: ease-in-out 2s reverse infinite;
   }
-  @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
+  @-webkit-keyframes ease-in-out {
+    0% { -webkit-transform: text(blue); }
+    100% { -webkit-transform: text(green); }
   }
   
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+  @keyframes ease-in-out {
+    0% { -webkit-transform: text(blue); }
+    100% { -webkit-transform: text(green); }
   }
   
   /* Add animation to "page content" */
